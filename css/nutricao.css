@@ -1,0 +1,156 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 1.5rem;
+     width: 100%;
+     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.59);
+     margin-bottom: 2rem;
+ }
+ 
+ .container {
+     width: 95vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     flex-wrap: wrap;
+ }
+ 
+ .area-search {
+     width: 80%;
+     padding: 1.5rem;
+     background-color: aliceblue;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .input-search input {
+     border-top: 0;
+     border-right: 0;
+     border-bottom: 2px solid rgba(0, 0, 0, 0.055);
+     border-left: 0;
+     padding: 0.35rem;
+     outline: none;
+     margin-right: 5px;
+ }
+ 
+ .input-search input:focus,
+ .input-search input:hover {
+     border-bottom: 2px solid rgba(0, 0, 0, 0.788);
+ }
+ 
+ .input-search button {
+     border: 1px solid transparent;
+     outline: none;
+     cursor: pointer;
+     padding: 0.35rem;
+     background-color: coral;
+     border-radius: 5px;
+ }
+ 
+ .input-search button:hover {
+     border: 1px solid coral;
+     color: coral;
+     background-color: transparent;
+     border-radius: 5px;
+ }
+ 
+ table {
+     margin: 2rem auto;
+     background-color: azure;
+     width: 80%;
+ }
+ 
+ table thead {
+     background-color: #00000067;
+ }
+ 
+ table thead th {
+     padding: 0.1rem 0.3rem;
+ }
+ 
+ table tbody tr:hover {
+     color: black;
+     background-color: rgba(95, 94, 95, 0.486);
+ }
+ 
+ table tbody td {
+     padding: 0.1rem 0.3rem;
+     border: 1px solid rgba(95, 94, 95, 0.486);
+     text-align: center;
+     text-transform: capitalize;
+ }
+ 
+ #form-adiciona {
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     margin: 2rem;
+ }
+ 
+ #form-adiciona .grupo {
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+ 
+ #form-adiciona .grupo label {
+     padding: 0.5rem 0;
+ }
+ 
+ #form-adiciona .grupo input {
+     padding: 0.2rem;
+ }
+ 
+ #form-adiciona .grupo input {
+     border: 2px solid rgba(0, 0, 0, 0.247);
+     padding: 0.35rem;
+     border-radius: 5px;
+     outline: none;
+     margin-right: 5px;
+     text-transform: capitalize;
+ }
+ 
+ #form-adiciona .grupo input:focus,
+ #form-adiciona .grupo input:hover {
+     border-bottom: 2px solid rgba(5, 172, 116, 0.932);
+ }
+ 
+ #form-adiciona button {
+     width: 50%;
+     margin: 2rem 0;
+     padding: 0.45rem;
+     outline: none;
+     border: 1px solid transparent;
+     border-radius: 5px;
+     background-color: rgba(5, 172, 116, 0.932);
+     text-transform: uppercase;
+ }
+ 
+ #form-adiciona button:hover,
+ #form-adiciona button:focus {
+     background-color: rgba(5, 172, 116, 0.349);
+     color: rgba(3, 36, 25, 0.781);
+     border: 1px solid rgba(5, 172, 116, 0.932);
+ }
+ 
+ #mensagem-erro {
+     background-color: rgba(255, 0, 0, 0.534);
+     padding: 0.65rem;
+     border-radius: 7px;
+     text-align: center;
+     color: white;
+     font-weight: 900;
+     letter-spacing: 1px;
+     margin: 2rem 0;
+     text-transform: uppercase;
+     display: none;
+ }
